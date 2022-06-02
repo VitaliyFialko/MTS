@@ -544,7 +544,7 @@ input:checked+.slider:before {
 }
 
 .false_price {
-    background-image: url(/img/carts/false.svg);
+    background-image: url('/img/carts/false.svg');
     box-shadow: none;
     font-family: 'Verdana';
     font-style: normal;
@@ -921,7 +921,7 @@ label {
     .header-container {
         width: 100%;
         display: block;
-        padding-top: 20px;
+        padding: 20px 20px;
     }
 
     .head__logo {
@@ -973,7 +973,7 @@ label {
 
     .banner__container {
         width: 100%;
-        padding: 10px 0;
+        padding: 10px 20px;
     }
 
     .banner__container_text {
@@ -990,6 +990,10 @@ label {
 
     main {
         padding: 20px 0;
+    }
+
+    .main__section {
+        padding: 20px 20px;
     }
 
     .main-nav-container {
